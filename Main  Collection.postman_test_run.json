@@ -1,0 +1,172 @@
+{
+	"id": "0a726b8a-9362-4860-a1b3-9d67800f08d5",
+	"name": "Main  Collection",
+	"timestamp": "2022-03-23T10:50:17.521Z",
+	"collection_id": "19954828-b161b873-debe-49fa-b5a8-3ec8c1dca0f1",
+	"folder_id": 0,
+	"environment_id": "19954828-53b7aa7c-d112-4735-a888-57d3bcdde422",
+	"totalPass": 9,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "dd17023e-1704-4782-b23d-f6d207bea5a4",
+			"name": "{{url}}users",
+			"url": "https://reqres.in/api/users",
+			"time": 208,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				208
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				}
+			]
+		},
+		{
+			"id": "5dd75e12-692c-4b76-ba98-d245f4ae04b1",
+			"name": "{{url}}users",
+			"url": "https://reqres.in/api/users",
+			"time": 197,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Current value is not null": true,
+				"Response time is less than 500ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Current value is not null": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				197
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Current value is not null": true,
+					"Response time is less than 500ms": true
+				}
+			]
+		},
+		{
+			"id": "c73f246b-5991-4e3c-bedf-e659f8ad45a3",
+			"name": "{{ur2}}v1/Activities/22",
+			"url": "https://fakerestapi.azurewebsites.net/api/v1/Activities/22",
+			"time": 173,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true,
+				"Current value is not null": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Current value is not null": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				173
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true,
+					"Current value is not null": true
+				}
+			]
+		},
+		{
+			"id": "481b20a9-a6e8-4f32-9a91-e3f26124d900",
+			"name": "{{url2}}v1/Activities/22",
+			"url": "https://fakerestapi.azurewebsites.net/api/v1/Activities/22",
+			"time": 175,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				175
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 753,
+	"collection": {
+		"requests": [
+			{
+				"id": "dd17023e-1704-4782-b23d-f6d207bea5a4",
+				"method": "GET"
+			},
+			{
+				"id": "5dd75e12-692c-4b76-ba98-d245f4ae04b1",
+				"method": "POST"
+			},
+			{
+				"id": "c73f246b-5991-4e3c-bedf-e659f8ad45a3",
+				"method": "PUT"
+			},
+			{
+				"id": "481b20a9-a6e8-4f32-9a91-e3f26124d900",
+				"method": "DELETE"
+			}
+		]
+	}
+}
